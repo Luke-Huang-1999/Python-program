@@ -29,3 +29,4 @@ print(fib_recursive(40))
 # 造成運行非常慢
 
 # for迴圈很快很好debug，實務上建議用for迴圈為主，遞迴為輔
+#
