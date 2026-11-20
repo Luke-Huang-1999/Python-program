@@ -1,0 +1,10 @@
+tpl = (12, [23, 34], (37, 0, "cat"))
+
+print(f"a = {tpl[0]}")
+print(f"b = {tpl[1]}")
+print(f"c = {tpl[0:2]}")
+print(f"d = {tpl[2][2]}")
+print(f"e = {tpl[2][1:]}")
+print(f"f = {tpl[2]}")
+print(f"g = {tpl[2][1]}")
+print(f"h = {tpl[1][1]}")
