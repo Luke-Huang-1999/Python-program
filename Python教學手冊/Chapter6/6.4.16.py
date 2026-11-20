@@ -1,0 +1,10 @@
+print(f"hash('piggy') = {hash('piggy')}")
+# print(f"hash([26,67]) = {hash([26,67])}")# List 是可變動（Mutable）的物件，不可雜湊
+# print(f"hash({26,12}) = {hash({26,12})}")# Set 是可變動（Mutable）的物件，不可雜湊
+print(f"hash(45) = {hash(45)}")
+print(f"hash((12,)) = {hash((12,))}")
+# print(f"hash(([7,8],9)) = {hash(([7,8],9))}")# List 是可變動（Mutable）的物件，不可雜湊
+print(f"hash((12,'p')) = {hash((12,'p'))}")
+# print(f"hash(['Python']) = {hash(['Python'])}")# List 是可變動（Mutable）的物件，不可雜湊
+# print(f"hash([0.81]) = {hash([0.81])}")# List 是可變動（Mutable）的物件，不可雜湊
+# print(f"hash((7, {8,9})) = {hash((7, {8,9}))}")# Set 是可變動（Mutable）的物件，不可雜湊
