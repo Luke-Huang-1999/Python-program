@@ -1,9 +1,9 @@
 chapter = 8
-subchapter = 1
-start = 1
-end = 7
+subchapter = 2
+start = 8
+end = 13
 
-if end > start and end > (start * 2):
+if end > start:
     for i in range(start, end + 1):
         filename = f"{chapter}.{subchapter}.{i}.py"
 
